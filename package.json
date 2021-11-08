@@ -1,0 +1,26 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node web-scraping/index.js",
+    "clean": "node text-cleaning/index.js",
+    "word2vec": "node word2vec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@artificialscience/k-nn": "^1.0.2",
+    "cheerio": "^1.0.0-rc.10",
+    "csv-parser": "^3.0.0",
+    "html-to-text": "^8.0.0",
+    "ml-knn": "^3.0.0",
+    "needle": "^3.0.0",
+    "node-html-parser": "^4.1.5",
+    "tress": "^1.1.4",
+    "word2vec-loader-js": "^1.1.4",
+    "word2vec.js": "^0.1.3"
+  }
+}
